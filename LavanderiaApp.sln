@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LavanderiaApp", "LavanderiaApp.csproj", "{AEED89A4-27B5-4B77-9447-F0F39F3B2945}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEED89A4-27B5-4B77-9447-F0F39F3B2945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEED89A4-27B5-4B77-9447-F0F39F3B2945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEED89A4-27B5-4B77-9447-F0F39F3B2945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEED89A4-27B5-4B77-9447-F0F39F3B2945}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2B002E8-8C44-4A56-A2C0-AD54DC692847}
+	EndGlobalSection
+EndGlobal

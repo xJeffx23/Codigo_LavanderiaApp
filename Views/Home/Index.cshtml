@@ -1,0 +1,33 @@
+﻿@model IEnumerable<LavanderiaApp.Models.Cliente>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Cédula</th>
+            <th>Nombre</th>
+            <th>Teléfono 1</th>
+            <th>Teléfono 2</th>
+            <th>Email</th>
+            <th>Dirección</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Cedula</td>
+                <td>@item.Nombre</td>
+                <td>@item.telefono1</td>
+                <td>@item.telefono2</td>
+                <td>@item.email</td>
+                <td>@item.direccion</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Cedula">Detalles</a> |
+                    <a asp-action="Edit" asp-route-id="@item.Cedula">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Cedula">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
